@@ -1,0 +1,87 @@
+body{
+    background-image: url(portfolio.webp); 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 1px 1px 2px #12c43f;
+}
+.navbar{
+    width: 100%;
+}
+.Home{
+    width: 100vh;
+    margin: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.nav-link{
+    color:rgb(11,11,11);   
+}
+img{
+    padding: 10px;
+    border-radius: 70%;
+    
+}
+.aboutsec{
+    width: 100vh;
+    display: flex;
+    justify-content: left;
+    margin: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+p{
+    color: aliceblue;
+}
+   /* Mobile (up to 768px) */
+  @media (max-width: 768px) {
+    .Home {
+      height: 400px;
+      font-size: 1.5rem;
+    }
+    .Home h2 {
+      font-size: 2rem;
+    }
+    .Home p {
+      font-size: 1rem;
+    }
+    .aboutsec{
+      display: flex;
+      padding: 1rem;
+    }
+    .aboutsec img{
+        width: 120px;
+      height: 120px;
+    }
+    .contactsec{
+        width: 90%;
+        text-align: center;
+    }
+  }
+  /* Tablet (769px - 1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .Home {
+      height: 500px;
+    }
+    .Home h1 {
+      font-size: 2.5rem;
+    }
+    .Home p {
+      font-size: 1.25rem;
+    }
+  }
+
+  /* Desktop (above 1024px) */
+  @media (min-width: 1025px) {
+    .Home {
+      height: 600px;
+    }
+    .Home h1 {
+      font-size: 3rem;
+    }
+    .Home p {
+      font-size: 1.5rem;
+    }
+  }
+
+
